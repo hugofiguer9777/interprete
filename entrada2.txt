@@ -1,0 +1,87 @@
+numero var1;
+//var1 = 5;
+
+//imprimir("---- FIBONACCI ----");
+
+/*fibo(numero n){
+    numero a;
+    numero b;
+    a = 0;
+    b = 1;
+
+    mientras(a < n){
+        imprimir(a);
+        numero tmp;
+        tmp = a + b;
+        a = b;
+        b = tmp;
+    }
+}
+
+numero a;
+a = 1;
+funcion(){
+    imprimir("Funcion con retorno :o");
+    if(5>10){
+        imprimir("5 es mayor que 1");
+        retornar 5*2;
+    }
+
+    if(10<50) {
+        imprimir("Segundo");
+        mientras(a < 6){
+            imprimir(a);
+            if(a == 5){
+                imprimir("Ultimo valor");
+                retornar a*10+1;
+            }
+            a = a + 1;
+        }
+    }
+    retornar 10*2+5;
+}
+
+//fibo(1000);
+var1 = funcion();
+
+imprimir("var1 = " & var1);
+
+fiboRec(numero n){
+    if(n>1){
+        retornar fiboRec(n-1) + fiboRec(n-2);
+    }
+    else{
+        if(n == 1){
+            retornar 1;
+        }
+        else{
+            if(n==0){
+                retornar 0;
+            }
+            else{
+                imprimir("Se debe ingresar un tamaño mayor o igual a 1");
+                retornar -1;
+            }
+        }
+    }
+}
+
+var1 = fiboRec(10);
+imprimir("var1 = " & var1);
+*/
+
+if(2>10){
+    imprimir("Hola 1");
+}
+else if(5<4){
+    imprimir("Hola 2");
+}
+else if(6==6){
+    imprimir("Hola 3");
+}
+else{
+    imprimir("Hola 4");
+}
+
+imprimir("---- FINAL ----");
+
